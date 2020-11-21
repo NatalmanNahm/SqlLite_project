@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Sqlite_project</string>
+    
+    <string-array name="event_type">
+        <item>Party</item>
+        <item>Concert</item>
+        <item>Gathering</item>
+        <item>Food</item>
+    </string-array>
 </resources>
