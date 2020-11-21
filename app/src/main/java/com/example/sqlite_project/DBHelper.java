@@ -21,9 +21,9 @@ public class DBHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE " + TABLE_NAME + "(" +
                 "_id INTEGER PRIMARY KEY AUTOINCREMENT," +
-                TITLE_COL + "TEXT" +
-                DATE_COL + "TEXT" +
-                IMAGE_ID_COL + "INTEGER" +
+                TITLE_COL + " TEXT," +
+                DATE_COL + " TEXT," +
+                IMAGE_ID_COL + " INTEGER" +
                 ")");
     }
 
