@@ -67,7 +67,7 @@ public class CreateEventActivity extends AppCompatActivity {
             date.setText("");
             Toast.makeText(this, "Event Created", Toast.LENGTH_SHORT).show();
             db.close();
-//            onBackPressed();
+            onBackPressed();
         });
     }
 }
